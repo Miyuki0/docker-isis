@@ -1,5 +1,5 @@
 
-# Docker-ISIS
+# Docker-paramedic
 
 **Automatically monitor and restart unhealthy or exited Docker containers**  
 _Because sometimes containers need a little CPR_
@@ -122,7 +122,7 @@ HEALTHCHECK --interval=30s --timeout=3s --retries=3 \
 ## Building Locally
 
 ```bash
-git clone https://github.com/Miyuki0/docker-isis.git
+git clone https://github.com/Miyuki0/docker-paramedic.git
 cd docker-autoheal
 docker build -t autoheal .
 ```
